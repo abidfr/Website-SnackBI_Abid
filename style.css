@@ -1,0 +1,206 @@
+.jumbotron{
+	background-image: url('img/gambar.jpg');
+	background-size: cover;
+	height: 620px;
+	margin-top: 50px;
+}
+.jumbotron .display-4{
+	margin-top: -30px;
+	margin-left: -0px;
+	color: #fff;
+	font-size: 43px;
+	font-weight: bold;
+}
+.jumbotron .lead{
+	margin-top: -15px;
+	margin-left: -0px;
+	color: #fff;
+}
+.jumbotron hr{
+	margin-top: -200px;
+	margin-left: -0px;
+	width: 600px;
+	color: #fff;
+}
+.jumbotron .btn{
+	margin-top: -10px;
+	margin-left: -0px;
+	color: #fff;
+}
+.card{
+	width: 20rem;
+	margin-top: -150px;
+	margin-left: 45px;
+}
+.card .display-4{
+	font-size: 25px;
+}
+hr{
+	width: 100px;
+	border-top: 3px solid #eaeaea; 
+}
+.box:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box .col-4{
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+}
+.icon{
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+	margin: 0 auto;
+}
+.box .col-4 h4{
+	margin: 20px 0;
+}
+.contact .container .box .col-4{
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.col-md-4 li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+	font-size: 30pt;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+.bg-loader{
+	background-color: #eee;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 9999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bg-loader .loader{
+	width: 100px;
+	height: 100px;
+	border:3px solid #fff;
+	border-radius: 50%;
+	border-top-color: #232323;
+	border-right-color: #232323;
+	border-bottom-color: #232323;
+	animation: muter-muter .7s linear infinite;
+}
+.about.html .jumbotron{
+	background-image: url('img/gambar.jpg');
+	background-size: cover;
+	height: 400px;
+	margin-top: 50px;
+}
+.wow{
+	margin-left: 20%;
+	margin-bottom: 40px;
+}
+.testimonial{
+	background-color: #cce5ff;
+}
+.bubu{
+	margin-top: -38px;
+	margin-left: 330px;
+}
+.jumbo{
+	background-image: url('img/gambar.jpg');
+	background-size: cover;
+	height: 620px;
+	margin-top: 38px;
+	margin-top: -7px
+}
+.jumbo .display-4{
+	margin-top: -30px;
+	margin-left: 20px;
+	color: #fff;
+	font-size: 43px;
+	font-weight: bold;
+}
+.jumbo .lead{
+	margin-top: -15px;
+	margin-left: 30px;
+	color: #fff;
+}
+.jumbo hr{
+	margin-top: -250px;
+	margin-left: 30px;
+	width: 600px;
+	color: #fff;
+}
+.cardi {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+.cardi button{
+	background-image: url(resto.jpg);
+}
+.up{
+	margin-left: 70px;
+	margin-right: 120px;
+}
+.up .btn{
+	font-size: 10pt;
+}
+iframe{
+	width: 1100px;
+	margin-top: 50px;
+	margin-left: 120px;
+}
+.tombol{
+	background-image: url('img/resto1.jpg');
+	background-size: cover;
+	height: 158px;
+}
+.tombol1{
+	background-image: url('img/resto2.jpg');
+	background-size: cover;
+	height: 158px;
+}
+.tombol2{
+	background-image: url('img/resto3.jpg');
+	background-size: cover;
+	height: 158px;
+}
+.tombol3{
+	background-image: url('img/resto4.jpg');
+	background-size: cover;
+	height: 158px;
+}
+.tombol4{
+	background-image: url('img/resto5.jpg');
+	background-size: cover;
+	height: 158px;
+}
+
+
+footer{
+	margin-top: 5px;
+	padding: 30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+@keyframes muter-muter{
+	100%{
+		transform: rotate(360deg); 
+	}
+}
